@@ -243,7 +243,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "20"
 		
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
 		Class						= "BulletLauncher"
@@ -270,7 +271,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "20"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
 		Class						= "BulletLauncher"
@@ -297,7 +299,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "25"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
 		Class						= "BulletLauncher"
@@ -324,7 +327,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "25"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 
 	<Prototype
@@ -350,7 +354,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "40"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 
 	<Prototype
@@ -377,7 +382,8 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "60"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
 		Class						= "PlasmaBunchLauncher"
@@ -402,5 +408,6 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		Durability					= "40"
 
 		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"/>
+		CanBeDroppedFromEnemies 	= "false"
+		VisibleInEncyclopedia 		= "false"/>
 </Prototypes>
