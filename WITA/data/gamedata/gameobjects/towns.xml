@@ -10,9 +10,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunTownSouthGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01" />
-			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="minePusher"/>
 
