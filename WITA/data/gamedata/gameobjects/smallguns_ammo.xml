@@ -27,7 +27,7 @@
 		Durability					= "20"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "560"
+		ShellsPoolSize 				= "350"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -55,7 +55,7 @@
 		Durability					= "20"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "700"
+		ShellsPoolSize 				= "420"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -83,7 +83,7 @@
 		Durability					= "25"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "960"
+		ShellsPoolSize 				= "640"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -111,7 +111,7 @@
 		Durability					= "25"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "660"
+		ShellsPoolSize 				= "330"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -137,7 +137,7 @@
 		Durability					= "40"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "630"
+		ShellsPoolSize 				= "175"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -164,7 +164,7 @@
 		Durability					= "60"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "400"
+		ShellsPoolSize 				= "40"
 		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
@@ -190,6 +190,6 @@
 		Durability					= "40"
 
 		WithShellsPoolLimit 		= "true"
-		ShellsPoolSize 				= "90"
+		ShellsPoolSize 				= "30"
 		CanBeUsedInAutogenerating 	= "1"/>
 </Prototypes>
