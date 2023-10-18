@@ -13,7 +13,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hornet01_ammo" />
 			<Object PrototypeName="specter01_ammo" />
 			<Object PrototypeName="pkt01_ammo" />
-			<Object PrototypeName="vector01" />
+			<Object PrototypeName="vector01_ammo" />
 			<Object PrototypeName="minePusher"/>
 
 		</Prototype>	
@@ -25,9 +25,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hornet01_ammo" />
 			<Object PrototypeName="specter01_ammo" />
 
-			<Object PrototypeName="vector01" />
-			<Object PrototypeName="kpvt01" />
-			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="vector01_ammo" />
+			<Object PrototypeName="kpvt01_ammo" />
+			<Object PrototypeName="rapier01_ammo" />
 			<Object PrototypeName="minePusher"/>		
 		</Prototype>	
 
@@ -43,13 +43,13 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="fagot01_ammo" />
 			<Object PrototypeName="maxim01_ammo" />
 
-			<Object PrototypeName="vector01" />
-			<Object PrototypeName="kpvt01" />
-			<Object PrototypeName="rapier01" />
-			<Object PrototypeName="flag01" />
-			<Object PrototypeName="vulcan01" />
-			<Object PrototypeName="odin01" />
-			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="vector01_ammo" />
+			<Object PrototypeName="kpvt01_ammo" />
+			<Object PrototypeName="rapier01_ammo" />
+			<Object PrototypeName="flag01_ammo" />
+			<Object PrototypeName="vulcan01_ammo" />
+			<Object PrototypeName="odin01_ammo" />
+			<Object PrototypeName="bumblebee01_ammo" />
        		<Object PrototypeName="hunterSideGun" />
 			<Object PrototypeName="hammer01" />
 			<Object PrototypeName="octopus01" />
@@ -66,7 +66,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="pkt01_ammo" />
 			<Object PrototypeName="kord01_ammo" />
 
-			<Object PrototypeName="vector01" />
+			<Object PrototypeName="vector01_ammo" />
 
 			<Object PrototypeName="cyclops01" />
 			<Object PrototypeName="octopus01" />
@@ -83,8 +83,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="fagot01_ammo" />
 			<Object PrototypeName="maxim01_ammo" />
 
-			<Object PrototypeName="omega01" />
-			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="omega01_ammo" />
+			<Object PrototypeName="bumblebee01_ammo" />
 
 			<Object PrototypeName="big_swingfire01" />
 			<Object PrototypeName="zeusSideGun"/>
@@ -99,8 +99,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="fagot01_ammo" />
 			<Object PrototypeName="maxim01_ammo" />
 
-			<Object PrototypeName="omega01" />
-			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="omega01_ammo" />
+			<Object PrototypeName="bumblebee01_ammo" />
 			<Object PrototypeName="cyclops01" />
 			<Object PrototypeName="big_swingfire01" />
 			<Object PrototypeName="hurricane01" />
@@ -117,9 +117,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="storm01_ammo" />
 			<Object PrototypeName="pkt01_ammo" />
 
-			<Object PrototypeName="vulcan01" />
-			<Object PrototypeName="rainmetal01" />
-			<Object PrototypeName="elephant01" />
+			<Object PrototypeName="vulcan01_ammo" />
+			<Object PrototypeName="rainmetal01_ammo" />
+			<Object PrototypeName="elephant01_ammo" />
 			<Object PrototypeName="hammer01" />
 			<Object PrototypeName="cyclops01" />
 			<Object PrototypeName="octopus01" />
@@ -136,9 +136,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="storm01_ammo" />
 			<Object PrototypeName="pkt01_ammo" />
 
-			<Object PrototypeName="vulcan01" />
-			<Object PrototypeName="rainmetal01" />
-			<Object PrototypeName="elephant01" />
+			<Object PrototypeName="vulcan01_ammo" />
+			<Object PrototypeName="rainmetal01_ammo" />
+			<Object PrototypeName="elephant01_ammo" />
 			<Object PrototypeName="hammer01" />
 			<Object PrototypeName="cyclops01" />
 			<Object PrototypeName="octopus01" />
@@ -156,13 +156,13 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunAsgargGenerator">
 
-			<Object PrototypeName="vector01" />
-			<Object PrototypeName="kpvt01" />
-			<Object PrototypeName="rapier01" />
-			<Object PrototypeName="flag01" />
-			<Object PrototypeName="vulcan01" />
-			<Object PrototypeName="odin01" />
-			<Object PrototypeName="bumblebee01" />
+			<Object PrototypeName="vector01_ammo" />
+			<Object PrototypeName="kpvt01_ammo" />
+			<Object PrototypeName="rapier01_ammo" />
+			<Object PrototypeName="flag01_ammo" />
+			<Object PrototypeName="vulcan01_ammo" />
+			<Object PrototypeName="odin01_ammo" />
+			<Object PrototypeName="bumblebee01_ammo" />
 			<Object PrototypeName="minePusher_2"/>
 			<Object PrototypeName="hammer01" />
 			<Object PrototypeName="octopus01" />
@@ -180,9 +180,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="kord01_ammo" />
 			<Object PrototypeName="storm01_ammo" />
 			<Object PrototypeName="minePusher_1"/>
-			<Object PrototypeName="vector01" />
-			<Object PrototypeName="kpvt01" />
-			<Object PrototypeName="rapier01" />
+			<Object PrototypeName="vector01_ammo" />
+			<Object PrototypeName="kpvt01_ammo" />
+			<Object PrototypeName="rapier01_ammo" />
 			<Object PrototypeName="someTurboAccelerationPusher"/>
 
 		</Prototype>	
@@ -194,9 +194,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hornet01_ammo" />
 			<Object PrototypeName="specter01_ammo" />
 			<Object PrototypeName="pkt01_ammo" />
-			<Object PrototypeName="vector01" />
-			<Object PrototypeName="kpvt01" />
-			<Object PrototypeName="kord01" />
+			<Object PrototypeName="vector01_ammo" />
+			<Object PrototypeName="kpvt01_ammo" />
+			<Object PrototypeName="kord01_ammo" />
 			<Object PrototypeName="minePusher"/>
 
 		</Prototype>	

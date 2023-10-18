@@ -102,6 +102,19 @@
    <Item id="bumblebee01"	      file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
    <Item id="omega01"		      file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
 
+   <!-- Big with ammo -->
+   <Item id="storm01_ammo"			file="data\if\ico_hd\InventoryDlg\weapon\Storm.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Storm_min.dds"/>
+   <Item id="vulcan01_ammo"	   file="data\if\ico_hd\InventoryDlg\weapon\Vulcan.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Vulcan_min.dds"/>
+   <Item id="flag01_ammo"			file="data\if\ico_hd\InventoryDlg\weapon\Flag.dds"			file1="data\if\ico_hd\InventoryDlg\weapon\Flag_min.dds"/>
+   <Item id="rainmetal01_ammo"   file="data\if\ico_hd\InventoryDlg\weapon\Rainmetal.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Rainmetal_min.dds"/>
+   <Item id="rapier01_ammo"	   file="data\if\ico_hd\InventoryDlg\weapon\Rapier.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Rapier_min.dds"/>
+   <Item id="kpvt01_ammo"			file="data\if\ico_hd\InventoryDlg\weapon\kpvt01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\kpvt01_min.dds"/>
+   <Item id="elephant01_ammo"	   file="data\if\ico_hd\InventoryDlg\weapon\elephant01.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\elephant01_min.dds"/>
+   <Item id="hurricane01_ammo"	file="data\if\ico_hd\InventoryDlg\weapon\hurricane01.dds" file1="data\if\ico_hd\InventoryDlg\weapon\hurricane01_min.dds"/>
+   <Item id="odin01_ammo"			file="data\if\ico_hd\InventoryDlg\weapon\odin01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\odin01_min.dds"/>
+   <Item id="bumblebee01_ammo"	file="data\if\ico_hd\InventoryDlg\weapon\Bumblebee.dds"	file1="data\if\ico_hd\InventoryDlg\weapon\Bumblebee_min.dds"/>
+   <Item id="omega01_ammo"		   file="data\if\ico_hd\InventoryDlg\weapon\omega01.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\omega01_min.dds"/>
+
    <!-- Small -->
    <Item id="hornet01"			   file="data\if\ico_hd\InventoryDlg\weapon\Hornet.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Hornet_min.dds"/>
    <Item id="specter01"			   file="data\if\ico_hd\InventoryDlg\weapon\Specter.dds"		file1="data\if\ico_hd\InventoryDlg\weapon\Specter_min.dds"/>

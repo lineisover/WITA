@@ -171,7 +171,7 @@ function giveguns ()
 			local slots={"SMALL_","BIG_","GIANT_","SIDE_"}
 			local guns={"GUN","GUN_0","GUN_1","GUN_2"}
 			local smallgun={"hornet01_ammo","specter01_ammo","pkt01_ammo","kord01_ammo","maxim01_ammo","storm01_ammo","fagot01_ammo"}
-			local biggun={"rapier01","vector01","vulcan01","flag01","kpvt01","rainmetal01","elephant01","odin01","bumblebee01","omega01","hurricane01"}
+			local biggun={"rapier01_ammo","vector01_ammo","vulcan01_ammo","flag01_ammo","kpvt01_ammo","rainmetal01_ammo","elephant01_ammo","odin01_ammo","bumblebee01_ammo","omega01_ammo","hurricane01"}
 			local giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
 			local sidegun={"hailSideGun","marsSideGun","zeusSideGun","hunterSideGun"}
 			local i,j,k=1,1,1

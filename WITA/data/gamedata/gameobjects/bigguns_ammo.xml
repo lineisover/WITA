@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 
-<!--
-$Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
--->
-
 <Prototypes>
-	<Prototype
-		Class						= "BulletLauncher"
-		Name						= "rapier01"
-		ModelFile					= "rapier01"
-		ResourceType				= "BIG_GUN"
-		NodeScale					= "1 1 1"
-		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
-		ExplosionType				= "CANNON"
-		FiringEffect				= "none"
-		Damage						= "160"
-		FiringRate					= "24"
-		GroupingAngle				= "0.6"
-		FiringRange					= "1200"
-		RecoilForce					= "50"
-		DamageType					= "BLAST"
-		Decal						= "DC_GUN"
-		ChargeSize      			= "1"
-		RechargingTime  			= "2.5"
-		Durability					= "70"
-		BlastWavePrototype      	= "smallBlastWave"
-		Price						= "20400"
-		FiringType					= "Cannon"
-		
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
 
-	<Prototype
-		Class						= "BulletLauncher"
-		Name						= "vector01"
-		ModelFile					= "vector01"
-		ResourceType				= "BIG_GUN"
-		NodeScale					= "1 1 1"
-		Mass						= "1.0"
-		TracerEffect 				="ET_PS_TRACER1"
-		TracerRange  				= "1" 
-		BulletPrototype				= "raybullet"
-		ExplosionType				= "MACHINEGUN"
-		FiringEffect				= "none"
-		Damage						= "13"
-		FiringRate					= "300"
-		GroupingAngle				= "1.4"
-		FiringRange					= "750"
-		RecoilForce					= "50"
-		ChargeSize      			= "135"
-		RechargingTime  			= "3.5"
-		Decal						= "DC_BIG_MACHINEGUN"
-		Price						= "5520"
+    <Prototype
+        Class					    = "BulletLauncher"
+        Name					    = "rapier01_ammo"
+        ModelFile				    = "rapier01"
+        ResourceType			    = "BIG_GUN"
+        NodeScale				    = "1 1 1"
+        Mass					    = "1.0"
+        BulletPrototype			    = "biggun_bullet"
+        ExplosionType			    = "CANNON"
+        FiringEffect			    = "none"
+        Damage					    = "160"
+        FiringRate				    = "24"
+        GroupingAngle			    = "0.6"
+        FiringRange				    = "1200"
+        RecoilForce				    = "50"
+        DamageType				    = "BLAST"
+        Decal					    = "DC_GUN"
+        ChargeSize      		    = "1"
+        RechargingTime  		    = "2.5"
+        Durability				    = "70"
+        BlastWavePrototype          = "smallBlastWave"
+        Price					    = "20400"
+        FiringType				    = "Cannon"
+
+        WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "45"
+	    CanBeUsedInAutogenerating 	= "1"/>
+
+    <Prototype
+    	Class						= "BulletLauncher"
+    	Name						= "vector01_ammo"
+    	ModelFile					= "vector01"
+    	ResourceType				= "BIG_GUN"
+    	NodeScale					= "1 1 1"
+    	Mass						= "1.0"
+    	TracerEffect 				= "ET_PS_TRACER1"
+    	TracerRange  				= "1"
+    	BulletPrototype				= "biggun_bullet"
+    	ExplosionType				= "MACHINEGUN"
+    	FiringEffect				= "none"
+    	Damage						= "13"
+    	FiringRate					= "300"
+    	GroupingAngle				= "1.4"
+    	FiringRange					= "750"
+    	RecoilForce					= "50"
+    	ChargeSize      			= "135"
+    	RechargingTime  			= "3.5"
+    	Decal						= "DC_BIG_MACHINEGUN"
+    	Price						= "5520"
         FiringType					= "MachineGun"
-		Durability					= "50"
-		
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+    	Durability					= "50"
+    
+    	WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "600"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "BulletLauncher"
-		Name						= "vulcan01"
+		Name						= "vulcan01_ammo"
 		ModelFile					= "vulcan01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
 		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "5"
@@ -81,17 +80,18 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
         FiringType					= "MachineGun"
 		Durability					= "30"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "2200"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "BulletLauncher"
-		Name						= "flag01"
+		Name						= "flag01_ammo"
 		ModelFile					= "flag01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
 		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "biggun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "320"
@@ -108,17 +108,18 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype      	= "smallBlastWave"
 		Durability					= "200"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "40"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "BulletLauncher"
-		Name						= "kpvt01"
+		Name						= "kpvt01_ammo"
 		ModelFile					= "kpvt01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
 		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "biggun_bullet"
 		ExplosionType				= "AUTOCANNON"
 		FiringEffect				= "none"
 		Damage						= "8"
@@ -133,17 +134,18 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
         FiringType					= "MachineGun"
 		Durability					= "60"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "1300"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "BulletLauncher"
-		Name						= "rainmetal01"
+		Name						= "rainmetal01_ammo"
 		ModelFile					= "rainmetal01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
 		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "biggun_bullet"
 		ExplosionType				= "AUTOCANNON"
 		FiringEffect				= "none"
 		Damage						= "18"
@@ -159,12 +161,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype      	= "smallBlastWave_rainmetal"
 		Durability					= "100"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "800"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "PlasmaBunchLauncher"
-		Name						= "elephant01"
+		Name						= "elephant01_ammo"
 		ModelFile					= "big_elephant01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
@@ -184,13 +187,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price						= "45100"
 		Durability					= "250"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
-	
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "20"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "PlasmaBunchLauncher"
-		Name						= "odin01"
+		Name						= "odin01_ammo"
 		ModelFile					= "odin01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
@@ -210,12 +213,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price						= "51250"
 		Durability					= "250"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "200"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "Mortar"
-		Name						= "bumblebee01"
+		Name						= "bumblebee01_ammo"
 		ModelFile					= "bumblebee01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
@@ -239,12 +243,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price						= "13310"
 		Durability					= "400"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "210"
+	    CanBeUsedInAutogenerating 	= "1"/>
 
-	<Prototype
+    <Prototype
 		Class						= "Mortar"
-		Name						= "omega01"
+		Name						= "omega01_ammo"
 		ModelFile					= "omega01"
 		ResourceType				= "BIG_GUN"
 		NodeScale					= "1 1 1"
@@ -267,30 +272,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		TurningSpeed				= "100"
 		Durability					= "400"
 
-		CanBeUsedInAutogenerating 	= "0"
-		VisibleInEncyclopedia 		= "false"/>
-
-	<Prototype
-		Class						= "BulletLauncher"
-		Name						= "tank01"
-		ModelFile					= "tank01"
-		ResourceType				= "TANK_GUN"
-		NodeScale					= "1 1 1"
-		Mass						= "1.0"
-		Decal						= "DC_GUN"
-		BulletPrototype				= "raybullet"
-		ExplosionType				= "BLAST"
-		FiringEffect				= "none"
-		Damage						= "270"
-		FiringRate					= "30"
-		GroupingAngle				= "0.1"
-		FiringRange					= "500"
-		RecoilForce					= "500"
-		TurningSpeed				= "35"
-		CanBeUsedInAutogenerating   =  "0"
-        VisibleInEncyclopedia 		= "false"
-		Price						= "20000"
-        FiringType					= "Cannon"
-		Durability					= "400"/>
-
+		WithShellsPoolLimit 		= "true"
+	    ShellsPoolSize 				= "180"
+	    CanBeUsedInAutogenerating 	= "1"/>
 </Prototypes>

@@ -736,7 +736,17 @@
 		value="Вектор" />
 
 	<Item
+		id="vector01_ammo"
+		locForm="0"
+		value="Вектор" />
+
+	<Item
 		id="vulcan01"
+		locForm="0"
+		value="Вулкан" />
+
+	<Item
+		id="vulcan01_ammo"
 		locForm="0"
 		value="Вулкан" />
 
@@ -756,6 +766,11 @@
 		value="Рапира" />
 
 	<Item
+		id="rapier01_ammo"
+		locForm="1"
+		value="Рапира" />
+
+	<Item
 		id="fagot01"
 		locForm="0"
 		value="Фагот" />
@@ -771,7 +786,17 @@
 		value="КПВТ" />
 
 	<Item
+		id="kpvt01_ammo"
+		locForm="0"
+		value="КПВТ" />
+
+	<Item
 		id="rainmetal01"
+		locForm="0"
+		value="Рейнметалл" />
+
+	<Item
+		id="rainmetal01_ammo"
 		locForm="0"
 		value="Рейнметалл" />
 
@@ -786,7 +811,17 @@
 		value="Слон" />
 
 	<Item
+		id="elephant01_ammo"
+		locForm="0"
+		value="Слон" />
+
+	<Item
 		id="flag01"
+		locForm="0"
+		value="Флаг" />
+
+	<Item
+		id="flag01_ammo"
 		locForm="0"
 		value="Флаг" />
 
@@ -806,6 +841,11 @@
 		value="Один" />
 
 	<Item
+		id="odin01_ammo"
+		locForm="0"
+		value="Один" />
+
+	<Item
 		id="hammer01"
 		locForm="0"
 		value="Молот Тора" />
@@ -816,7 +856,17 @@
 		value="Шмель" />
 
 	<Item
+		id="bumblebee01_ammo"
+		locForm="0"
+		value="Шмель" />
+
+	<Item
 		id="omega01"
+		locForm="1"
+		value="Омега" />
+
+	<Item
+		id="omega01_ammo"
 		locForm="1"
 		value="Омега" />
 
