@@ -1,0 +1,6 @@
+<Prototypes>
+    <Prototype
+        Class		= "Bullet"
+        Price			= "1"	
+        Name            = "smlgun_bullet" />
+</Prototypes>

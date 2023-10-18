@@ -22,8 +22,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunArtefactGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01" />
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo" />
 
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="kpvt01" />
@@ -35,13 +35,13 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunMirgradGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01" />
-			<Object PrototypeName="pkt01" />
-			<Object PrototypeName="kord01" />
-			<Object PrototypeName="storm01" />
-			<Object PrototypeName="fagot01" />
-			<Object PrototypeName="maxim01" />
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
+			<Object PrototypeName="kord01_ammo" />
+			<Object PrototypeName="storm01_ammo" />
+			<Object PrototypeName="fagot01_ammo" />
+			<Object PrototypeName="maxim01_ammo" />
 
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="kpvt01" />
@@ -50,7 +50,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="vulcan01" />
 			<Object PrototypeName="odin01" />
 			<Object PrototypeName="bumblebee01" />
-       			<Object PrototypeName="hunterSideGun" />
+       		<Object PrototypeName="hunterSideGun" />
 			<Object PrototypeName="hammer01" />
 			<Object PrototypeName="octopus01" />
 			<Object PrototypeName="minePusher_1"/>
@@ -61,10 +61,10 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunOlmeGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01" />
-			<Object PrototypeName="pkt01" />
-			<Object PrototypeName="kord01" />
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
+			<Object PrototypeName="kord01_ammo" />
 
 			<Object PrototypeName="vector01" />
 
@@ -73,15 +73,15 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<Object PrototypeName="hailSideGun" />
 			<Object PrototypeName="hunterSideGun" />
 			<Object PrototypeName="minePusher_1"/>
-                        <Object PrototypeName="engineOilPusher"/>
+            <Object PrototypeName="engineOilPusher"/>
 		</Prototype>	
 
 		<Prototype
 			Class="RepositoryObjectsGenerator"
 			Name="gunMininGenerator">
 
-			<Object PrototypeName="fagot01" />
-			<Object PrototypeName="maxim01" />
+			<Object PrototypeName="fagot01_ammo" />
+			<Object PrototypeName="maxim01_ammo" />
 
 			<Object PrototypeName="omega01" />
 			<Object PrototypeName="bumblebee01" />
@@ -96,8 +96,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="guntownGenerator">
 
-			<Object PrototypeName="fagot01" />
-			<Object PrototypeName="maxim01" />
+			<Object PrototypeName="fagot01_ammo" />
+			<Object PrototypeName="maxim01_ammo" />
 
 			<Object PrototypeName="omega01" />
 			<Object PrototypeName="bumblebee01" />
@@ -113,9 +113,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunPeshtGenerator">
 
-			<Object PrototypeName="kord01" />
-			<Object PrototypeName="storm01" />
-			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01_ammo" />
+			<Object PrototypeName="storm01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
 
 			<Object PrototypeName="vulcan01" />
 			<Object PrototypeName="rainmetal01" />
@@ -132,9 +132,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="guncityGenerator">
 
-			<Object PrototypeName="kord01" />
-			<Object PrototypeName="storm01" />
-			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01_ammo" />
+			<Object PrototypeName="storm01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
 
 			<Object PrototypeName="vulcan01" />
 			<Object PrototypeName="rainmetal01" />
@@ -175,10 +175,10 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunPortoGenerator">
 
-			<Object PrototypeName="specter01" />
-			<Object PrototypeName="pkt01" />
-			<Object PrototypeName="kord01" />
-			<Object PrototypeName="storm01" />
+			<Object PrototypeName="specter01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
+			<Object PrototypeName="kord01_ammo" />
+			<Object PrototypeName="storm01_ammo" />
 			<Object PrototypeName="minePusher_1"/>
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="kpvt01" />
@@ -191,9 +191,9 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunEstingGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01" />
-			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo" />
+			<Object PrototypeName="pkt01_ammo" />
 			<Object PrototypeName="vector01" />
 			<Object PrototypeName="kpvt01" />
 			<Object PrototypeName="kord01" />
@@ -213,8 +213,8 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="RepositoryObjectsGenerator"
 			Name="gunHornetGenerator">
 
-			<Object PrototypeName="hornet01" />
-			<Object PrototypeName="specter01"/>
+			<Object PrototypeName="hornet01_ammo" />
+			<Object PrototypeName="specter01_ammo"/>
 		</Prototype>	
 
 		<Prototype
@@ -249,7 +249,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="AffixGenerator"
 			Name="cityaffixGenerator">
 
-                        <Affix AffixName = "excellent_gun" />
+            <Affix AffixName = "excellent_gun" />
 			<Affix AffixName = "advanced_gun" />
 			<Affix AffixName = "rapid_firing_gun" />
 			<Affix AffixName = "deadly_gun" />
@@ -288,7 +288,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			Class="AffixGenerator"
 			Name="citytruxaffixGenerator">
 
-                        <Affix AffixName = "excellent_cabin" />
+            <Affix AffixName = "excellent_cabin" />
 			<Affix AffixName = "advanced_cabin" />
 			<Affix AffixName = "excellent_basket" />
 			<Affix AffixName = "advanced_basket" />

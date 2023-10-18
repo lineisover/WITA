@@ -11,7 +11,7 @@
 		Mass						= "1.0"
 		TracerEffect 				= "ET_PS_TRACER1"
 		TracerRange 				= "1"	
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "5"
@@ -28,8 +28,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "560"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "BulletLauncher"
@@ -40,7 +39,7 @@
 		Mass						= "1.0"	
 		TracerEffect 				= "ET_PS_TRACER1"
 		TracerRange 				= "1" 
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "5"
@@ -57,8 +56,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "700"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "BulletLauncher"
@@ -69,7 +67,7 @@
 		Mass						= "1.0"
 		TracerEffect 				= "ET_PS_TRACER1"
 		TracerRange 				= "1" 
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "6"
@@ -86,8 +84,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "960"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "BulletLauncher"
@@ -98,7 +95,7 @@
 		Mass						= "1.0"
 		TracerEffect 				= "ET_PS_TRACER1"
 		TracerRange 				= "1" 
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "10"
@@ -115,8 +112,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "660"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "PlasmaBunchLauncher"
@@ -142,8 +138,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "630"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "BulletLauncher"
@@ -152,7 +147,7 @@
 		ResourceType				= "SMALL_GUN"
 		NodeScale					= "1 1 1"
 		Mass						= "1.0"
-		BulletPrototype				= "raybullet"
+		BulletPrototype				= "smlgun_bullet"
 		ExplosionType				= "MACHINEGUN"
 		FiringEffect				= "none"
 		Damage						= "160"
@@ -170,8 +165,7 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "400"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 
     <Prototype
 		Class						= "PlasmaBunchLauncher"
@@ -197,6 +191,5 @@
 
 		WithShellsPoolLimit 		= "true"
 		ShellsPoolSize 				= "90"
-		CanBeUsedInAutogenerating 	= "0"
-		CanBeDroppedFromEnemies 	= "true"/>
+		CanBeUsedInAutogenerating 	= "1"/>
 </Prototypes>

@@ -242,8 +242,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime 				= "2"
 		Durability					= "20"
 		
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
@@ -270,8 +269,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime 				= "2.5"
 		Durability					= "20"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
@@ -298,8 +296,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime 				= "3"
 		Durability					= "25"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
@@ -326,8 +323,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime 				= "3"
 		Durability					= "25"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 
@@ -353,8 +349,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime  			= "3"
 		Durability					= "40"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 
@@ -381,8 +376,7 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime  			= "3"
 		Durability					= "60"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 
 	<Prototype
@@ -407,7 +401,6 @@ $Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
 		RechargingTime  			= "4"
 		Durability					= "40"
 
-		CanBeUsedInAutogenerating 	= "1"
-		CanBeDroppedFromEnemies 	= "false"
+		CanBeUsedInAutogenerating 	= "0"
 		VisibleInEncyclopedia 		= "false"/>
 </Prototypes>

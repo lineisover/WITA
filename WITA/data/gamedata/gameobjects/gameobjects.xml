@@ -105,6 +105,8 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 	<Folder Name="Prefabs" File="Prefabs.xml" />
 
+	<Folder Name = "Bullets" File = "ammo.xml" />
+
 	<Folder Name = "Guns">
 		<Folder Name = "SmallGuns"	File = "SmallGuns.xml" />
 		<Folder Name = "SmallGuns"	File = "SmallGuns_ammo.xml" />
@@ -200,7 +202,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name = "Bullets">
 		<Prototype
 			Class		= "Bullet"
-                        Name            = "raybullet" />
+            Name            = "raybullet" />
 	</Folder>
 
 	<Folder Name = "Dots">
