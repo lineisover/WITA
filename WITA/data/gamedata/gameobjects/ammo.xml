@@ -1,4 +1,5 @@
 <Prototypes>
+    <!-- Пулеметы -->
     <Prototype
         Class		= "Bullet"
         Price			= "1"	
@@ -8,4 +9,82 @@
         Class		= "Bullet"
         Price			= "2"	
         Name            = "biggun_bullet" />
+
+    <!-- Дробовики -->
+    <Prototype
+        Class		= "Bullet"
+        Price			= "10"	
+        Name            = "sml_shotgun_bullet" />
+
+    <Prototype
+        Class		= "Bullet"
+        Price			= "20"	
+        Name            = "big_shotgun_bullet" />
+
+    <!-- Плазмаганы -->
+    <Prototype
+		Class			= "PlasmaBunch"
+		Name			= "sml_plasma"		
+		ModelFile		= "plasma01"
+		ExplosionType	= "PLASMA" 
+		Velocity		= "150"
+		Acceleration	= "1000"
+		FlyTime		    = "30.0"
+		Size			= "0.5 0.5 1"
+        Price           = "10"/>
+
+    <Prototype
+		Class			= "PlasmaBunch"
+		Name			= "big_plasma"		
+		ModelFile		= "plasma_big01"
+		ExplosionType	= "PLASMA" 
+		Velocity		= "150"
+		Acceleration	= "1000"
+		FlyTime		    = "15.0"
+		Size			= "0.5 0.5 1"
+        Price           = "20"/>
+
+    <!-- Лазерганы -->
+    <Prototype
+		Class			= "PlasmaBunch"
+		Name			= "sml_blue_laser"		
+		ModelFile		= "laser02"
+		ExplosionType	= "LASER" 
+		Velocity		= "800"
+		Acceleration	= "1000"
+		FlyTime		    = "25.0"
+		Size			= "0.5 0.5 1"
+        Price           = "10"/>
+
+    <Prototype
+		Class			= "PlasmaBunch"
+		Name			= "big_blue_laser"		
+		ModelFile		= "laser02"
+		ExplosionType	= "LASER" 
+		Velocity		= "800"
+		Acceleration	= "1000"
+		FlyTime		    = "25.0"
+		Size			= "0.5 0.5 1"
+        Price           = "20"/>
+
+    <!-- Пушки -->
+    <!-- Минометы -->
+    <Prototype
+		Class			        = "MortarShell"
+		Name			        = "bumb_mortar"			
+		ModelFile		        = "shell01"
+		ExplosionType	        = "GRENADE" 		
+		FlyTime			        = "100"
+		Size			        = "0.5 0.5 1"
+        Price                   = "3000"/>
+
+	<Prototype
+		Class			        = "MortarShell"
+		Name			        = "omega_mortar"			
+		ModelFile		        = "shell02"
+		ExplosionType	        = "GRENADE" 		
+		FlyTime			        = "100"
+		Size			        = "0.5 0.5 1"
+		BlastWavePrototype      = "smallBlastWave"
+        Price                   = "3000"/>
 </Prototypes>
